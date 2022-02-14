@@ -5,56 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=" description" content="Tudo para o seu pet em um clique">
     <title>PETSHOP</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="imagens/casinha-de-cachorro.png">
         <nav class="cabecalho-menu">
-            <a href="#" class="cabecalho-menu-item">Pet Shop</a>
-            <a href="#" class="cabecalho-menu-item">Brinquedos</a>
-            <a href="#" class="cabecalho-menu-item">Encomendas</a>
-            <a href="#" class="cabecalho-menu-item">Contato</a>
+         <ul>
+            <div class="container-menu">
+            <img class="cabecalho-imagem" src="imagens/casinha-de-cachorro.png">
+            <li><a href="#" class="cabecalho-menu-item">Pet Shop</a></li>
+            <li><a href="#" class="cabecalho-menu-item">Brinquedos</a></li>
+            <li><a href="#" class="cabecalho-menu-item">Encomendas</a></li>
+            <li><a href="#" class="cabecalho-menu-item">Contato</a></li>
+            </div>
+         </ul>
         </nav>
     </header>
-    <main class="conteudo">
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">PET LOVERS</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Tudo para o seu pet em um clique</h2>
-                <button class="conteudo-principal-escrito-botao">Saiba mais</button> 
-            </div>
-            <img class="conteudo-principal-imagem" src= "imagens/dog.png">
+        <body>
+            <main class="conteudo">
+                <section class="conteudo-principal">
+                    <div class="conteudo-principal-escrito">
+                        <h1 class="conteudo-principal-escrito-titulo">PET LOVERS</h1>
+                        <h2 class="conteudo-principal-escrito-subtitulo">Tudo para o seu pet em um clique</h2>
+                             <button class="conteudo-principal-escrito-botao">Saiba mais</button> 
+                     </div>
+                 <img class="conteudo-principal-imagem" src= "imagens/dog.png">
         </section>
         <section class="conteudo-secundario">
-        <h3 class="conteudo-secundario-titulo"> <strong> Como podemos te ajudar hoje?</strong></h3>
-        <div class="container">
-            <img class="conteudo-secundario-imagem-1" src="imagens/brinquedo.png">
-        <p class="conteudo-secundario-opcao">1. Escolha o próximo brinquedo favorido do seu amigão</p>
+         <h3 class="conteudo-secundario-titulo"> <strong> Como podemos te ajudar hoje?</strong></h3>
+             <div class="container-secundario">
+               <img class="conteudo-secundario-imagem-1" src="imagens/brinquedo.png">
+                  <p class="conteudo-secundario-opcao">1. Escolha o próximo brinquedo favorido do seu amigão</p>
+            </div>
+        <div class="container-secundario">
+              <img class="conteudo-secundario-imagem2" src="imagens/racao.png"> 
+             <p class="conteudo-secundario-opcao">2. Compre ração sem sair de casa e receba em até 3h</p>
         </div>
-        <div class="container">
-            <img class="conteudo-secundario-imagem2" src="imagens/racao.png"> 
-        <p class="conteudo-secundario-opcao">2. Compre ração sem sair de casa e receba em até 3h</p>
-        </div>
-        <div class="container">
-            <img class="conteudo-secundario-imagem3" src="imagens/medico.png">
-        <p class="conteudo-secundario-opcao">3. Assistência médica 24h</p>
+        <div class="container-secundario">
+               <img class="conteudo-secundario-imagem3" src="imagens/medico.png">
+               <p class="conteudo-secundario-opcao">3. Assistência médica 24h</p>
         </div>
         </section>
     </main>
     <footer class="rodape">
-        <div class="container-2">
-        <h4 class="conteudo-rodape-texto"><strong>Deixe seu e-email para receber promoções</strong></h4>
-        <form>
-        <input class="conteudo-rodape-email" type=”email”>
-    </form>
-    <button class="conteudo-rodape-botao">Enviar</button>
-    </div>
-      <script>
-      function msg() {
-        alert("e-mail enviado com sucesso!");
-      }
-      </script>
+        <div class="container-rodape">
+             <h4 class="conteudo-rodape-titulo"><strong>Nos acompanhe nas redes sociais</strong></h4>
+                </div>
+                <div class="conteudo-rodape-site">
+                        <img class="conteudo-rodape-icone" src="imagens/icone-instagram.png">
+                        <img class="conteudo-rodape-icone" src="imagens/icone-facebook.png">
+                        <img class="conteudo-rodape-icone" src="imagens/icone-twitter.png">
+                        <img class="conteudo-rodape-icone" src="imagens/icone-youtube.png">
+                    </div>
+                </div>
     </footer>
 </body>
 </html>
